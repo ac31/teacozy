@@ -1,0 +1,173 @@
+/* UNIVERSAL SELECTOR*/
+
+*{
+    margin: 0;
+    font-family: Helvetica;
+    color: seashell;
+}
+
+body{
+    background-color: black;
+}
+
+h2,
+h3,
+h4,
+h5{
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+}
+h2{
+    font-size: 33px;
+    
+}
+h3{
+    font-size: 30px;
+    
+}
+h4{
+    font-size: 22px;
+}
+h5{
+    font-size: 18px;
+}
+
+/* HEADER */
+
+header{
+    display: inline-flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 9;
+}
+
+logo img{
+    width: auto;
+    height: 50px;
+    margin: 10px;
+}
+
+
+header nav span a{
+    align-content: center;
+    font-size: 22px;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+/* MAIN CONTAINER */
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* OUR MISSION */
+.container .mission {
+    background-image: url(img/img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+
+
+}
+
+.ourm{
+    position: relative;
+    top:300px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    z-index: 3;
+}
+
+/* FEATURED TEAS*/
+.teas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+    min-width: 300px;
+}
+
+.head-featured{
+    width: 1200px;
+    padding-top: 70px;
+}
+
+.img-featured .img-size{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+/* LOCATIONS */
+
+.loca {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    background-image: url(img/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+
+}
+
+.head-location{
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    background-color: transparent;
+    width: 1000px;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+
+    
+}
+
+.loc-box{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    min-width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 0 40px 0 40px;
+    opacity: 1;
+}
+
+.loc-box p{
+    font-size: 22px;
+    margin: 22px 0 22px 0;
+    line-height: 2;
+}
+
+/* FOOTER */
+
+footer{
+    width: 1200px;
+
+}
+
+.info {
+    height: 200px;
+    text-align: center;
+}
+
+footer span{
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
